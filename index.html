@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery.MyCheck</title>
+	
+	<style>
+		body{color: #666; font-family: Helvetica,Arial,Heiti;}
+		p{margin: 5px;}
+		label{margin:0 5px;}
+	</style>
+
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+	
+<div class="div1" >
+<p>
+	<label for="">My Checkbox - flat black skin : </label>
+	<input name="flat" type="checkbox" class="mycheck" id="cb1" />
+</p>
+<p>
+	<label for="">My Checkbox - flat green skin : </label>
+	<input name="flat" type="checkbox" class="mycheck" id="cb2" />
+</p>
+</div>
+
+<p>
+	<label for="">My Radio - flat black skin : </label>
+	<input type="radio" name="grp1" class="myrd" id="rd11" />
+	<input type="radio" name="grp1" class="myrd" id="rd12" checked/>
+	<input type="radio" name="grp1" class="myrd" id="rd13" />
+</p>
+
+
+<p>
+	<label for="">My Radio - flat green skin : </label>
+	<input type="radio" name="grp2" class="myrd2" id="rd21" checked/>
+	<input type="radio" name="grp2" class="myrd2" id="rd22" />
+	<input type="radio" name="grp2" class="myrd2" id="rd23" />
+</p>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mycheck.min.js"></script>
+
+<script>
+	
+var  temp1 = $('#cb1').MyCheck({
+	onChangeEvt : function (e, data) { },
+	onEnterEvt : function (e, data) { },
+	onLeaveEvt : function (e, data) { }
+});
+
+var  temp2 = $('#cb2').MyCheck({
+	skinClass : 'green',
+	onChangeEvt : function (e, data) { },
+	onEnterEvt : function (e, data) { },
+	onLeaveEvt : function (e, data) { }
+});
+
+
+var  temp3 = $('.myrd').MyCheck({
+	onChangeEvt : function (e, data){ },
+	onEnterEvt : function (e, data) { },
+	onLeaveEvt : function (e, data) { }
+});
+
+var  temp4 = $('.myrd2').MyCheck({
+	skinClass : 'green',
+	onChangeEvt : function (e, data){ },
+	onEnterEvt : function (e, data) { },
+	onLeaveEvt : function (e, data) { }
+});
+
+</script>
+
+</body>
+</html>

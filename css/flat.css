@@ -1,0 +1,72 @@
+
+/*mycheck-rd-flat-green*/
+.mycheck-rd-flat-green,
+.mycheck-cb-flat-green{
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background: url(../assets/flat_green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.mycheck-cb-flat-green{
+	background-position: 0 -72px;
+}
+.mycheck-cb-flat-green-hover{
+	background-position: 0 -96px;
+}
+.mycheck-cb-flat-green-active{
+	background-position: 0 -120px;
+}
+
+
+.mycheck-rd-flat-green{
+	background-position: 0 0;
+}
+.mycheck-rd-flat-green-hover{
+	background-position: 0 -24px;
+}
+.mycheck-rd-flat-green-active{
+	background-position: 0 -48px;
+}
+/*End mycheck-rd-flat-green*/
+
+/*mycheck-rd-flat-black*/
+.mycheck-rd-flat-black,
+.mycheck-cb-flat-black{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background: url(../assets/flat_black.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.mycheck-cb-flat-black{
+    background-position: 0 0;
+}
+.mycheck-cb-flat-black-hover{
+    background-position: 0 0;
+}
+.mycheck-cb-flat-black-active{
+    background-position: 0 -24px;
+}
+
+
+.mycheck-rd-flat-black{
+    background-position: 0 -48px;
+}
+.mycheck-rd-flat-black-hover{
+    background-position: 0 -48px;
+}
+.mycheck-rd-flat-black-active{
+    background-position: 0 -72px;
+}
+/*End mycheck-rd-flat-black*/
